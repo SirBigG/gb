@@ -69,6 +69,8 @@ func fetchMetadata(scheme, path string) (io.ReadCloser, error) {
 	url := fmt.Sprintf("%s://%s?go-get=1", scheme, path)
 	switch scheme {
 	case "https", "http":
+		fmt.Println(url)
+		fmt.Println(path)
 		resp, err := http.Get(url)
 		if err != nil {
 			return nil, fmt.Errorf("failed to access url %q", url)
