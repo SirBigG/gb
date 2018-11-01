@@ -75,6 +75,7 @@ func fetchMetadata(scheme, path string) (io.ReadCloser, error) {
 		if err != nil {
 			return nil, fmt.Errorf("failed to access url %q", url)
 		}
+		fmt.Println(resp.Body)
 		return resp.Body, nil
 	default:
 		return nil, fmt.Errorf("unknown remote protocol scheme: %q", scheme)
