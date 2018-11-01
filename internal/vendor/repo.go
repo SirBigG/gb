@@ -154,6 +154,11 @@ func DeduceRemoteRepo(path string, insecure bool) (RemoteRepo, string, error) {
 		}
 	}
 
+	// If path have user auth data add it to path
+	if u.User.String() != "" {
+		path = u.User.String() + "@" + path
+	}
+
 	// no idea, try to resolve as a vanity import
 	importpath, vcs, reporoot, err := ParseMetadata(path, insecure)
 	if err != nil {
