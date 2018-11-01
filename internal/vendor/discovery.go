@@ -34,8 +34,11 @@ type metaImport struct {
 // parseMetaGoImports returns meta imports from the HTML in r.
 // Parsing ends at the end of the <head> section or the beginning of the <body>.
 func parseMetaGoImports(r io.Reader) (imports []metaImport, err error) {
+	var aaa []byte
+	r.Read(aaa)
+	fmt.Println("Before read")
+	fmt.Println(string(aaa))
 	d := xml.NewDecoder(r)
-	fmt.Printf("%+v", d)
 	d.CharsetReader = charsetReader
 	d.Strict = false
 	var t xml.Token
