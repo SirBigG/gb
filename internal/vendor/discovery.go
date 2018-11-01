@@ -35,6 +35,7 @@ type metaImport struct {
 // Parsing ends at the end of the <head> section or the beginning of the <body>.
 func parseMetaGoImports(r io.Reader) (imports []metaImport, err error) {
 	d := xml.NewDecoder(r)
+	fmt.Printf("%+v", d)
 	d.CharsetReader = charsetReader
 	d.Strict = false
 	var t xml.Token
