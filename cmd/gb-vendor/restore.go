@@ -76,7 +76,7 @@ func restoreWorker(ctx *gb.Context, work chan vendor.Dependency, wg *sync.WaitGr
 	for dep := range work {
 		fmt.Printf("Getting %s\n", dep.Importpath)
 		repo, _, err := vendor.DeduceRemoteRepo(dep.Importpath, insecure)
-		fmt.Println(repo.URL())
+		fmt.Printf("%+v", repo)
 		if err != nil {
 			errChan <- errors.Wrap(err, "could not process dependency")
 			return
