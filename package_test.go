@@ -117,12 +117,12 @@ func TestPackageBindir(t *testing.T) {
 		pkg: &Package{
 			Package: &build.Package{
 				Name:       "testpkg",
-				ImportPath: "github.com/constabulary/gb/testpkg",
+				ImportPath: "github.com/SirBigG/gb/testpkg",
 			},
 			Context:   ctx,
 			TestScope: true,
 		},
-		want: filepath.Join(ctx.Workdir(), "github.com", "constabulary", "gb", "testpkg", "_test"),
+		want: filepath.Join(ctx.Workdir(), "github.com", "SirBigG", "gb", "testpkg", "_test"),
 	}}
 
 	for i, tt := range tests {

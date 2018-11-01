@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/constabulary/gb"
-	"github.com/constabulary/gb/cmd"
-	"github.com/constabulary/gb/internal/fileutils"
-	"github.com/constabulary/gb/internal/vendor"
+	"github.com/SirBigG/gb"
+	"github.com/SirBigG/gb/cmd"
+	"github.com/SirBigG/gb/internal/fileutils"
+	"github.com/SirBigG/gb/internal/vendor"
 	"github.com/pkg/errors"
 )
 

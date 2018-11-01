@@ -11,8 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/constabulary/gb"
-	"github.com/constabulary/gb/cmd"
+	"github.com/SirBigG/gb"
+	"github.com/SirBigG/gb/cmd"
 	"github.com/pkg/errors"
 )
 
@@ -32,12 +32,12 @@ List lists packages imported by the project.
 
 The default output shows the package import paths:
 
-	% gb list github.com/constabulary/...
-	github.com/constabulary/gb
-	github.com/constabulary/gb/cmd
-	github.com/constabulary/gb/cmd/gb
-	github.com/constabulary/gb/cmd/gb-env
-	github.com/constabulary/gb/cmd/gb-list
+	% gb list github.com/SirBigG/...
+	github.com/SirBigG/gb
+	github.com/SirBigG/gb/cmd
+	github.com/SirBigG/gb/cmd/gb
+	github.com/SirBigG/gb/cmd/gb-env
+	github.com/SirBigG/gb/cmd/gb-list
 
 Flags:
 	-f

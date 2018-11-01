@@ -2,12 +2,12 @@
 
 ### Build status
 Unix:
-[![travis-cs status](https://travis-ci.org/constabulary/gb.svg "travis-ci status")](https://travis-ci.org/constabulary/gb)
+[![travis-cs status](https://travis-ci.org/SirBigG/gb.svg "travis-ci status")](https://travis-ci.org/SirBigG/gb)
 
 Windows:
 [![Build status](https://ci.appveyor.com/api/projects/status/rjttg1agmp2sra3h/branch/master?svg=true)](https://ci.appveyor.com/project/davecheney/gb/branch/master)
 
-[![codecov.io](https://codecov.io/github/constabulary/gb/branch/master/graph/badge.svg)](https://codecov.io/github/constabulary/gb)
+[![codecov.io](https://codecov.io/github/SirBigG/gb/branch/master/graph/badge.svg)](https://codecov.io/github/SirBigG/gb)
 
 `gb` is a proof of concept replacement build tool for the [Go programming language](https://golang.org).
 
@@ -23,7 +23,7 @@ You can create as many projects as you like and move between them simply by chan
 
 ## Installation
 
-    go get github.com/constabulary/gb/...
+    go get github.com/SirBigG/gb/...
 
 ## Read more
 
@@ -41,10 +41,10 @@ Before proposing a large change, please discuss your change by raising an issue.
 
 #### Completed
 
-- [Cross Compilation](https://github.com/constabulary/gb/milestones/cross-compilation)
+- [Cross Compilation](https://github.com/SirBigG/gb/milestones/cross-compilation)
 - Tag handling, unify -tags, ENVVARS and GOOS/GOARCH into a single format for binary names and pkg cache
 - gb test improvements, test output, test flag handling
-- [Race detector support](https://github.com/constabulary/gb/issues/96)
+- [Race detector support](https://github.com/SirBigG/gb/issues/96)
 
 #### Todo
 

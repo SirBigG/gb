@@ -1,6 +1,6 @@
 package main
 
-import "github.com/constabulary/gb/cmd"
+import "github.com/SirBigG/gb/cmd"
 
 func init() {
 	registerCommand(envCmd)

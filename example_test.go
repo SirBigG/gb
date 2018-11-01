@@ -4,7 +4,7 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/constabulary/gb"
+	"github.com/SirBigG/gb"
 )
 
 func ExampleNewProject() {

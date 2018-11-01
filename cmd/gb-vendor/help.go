@@ -11,7 +11,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/constabulary/gb/cmd"
+	"github.com/SirBigG/gb/cmd"
 )
 
 var helpTemplate = `{{if .Runnable}}usage: gb vendor {{.UsageLine}}

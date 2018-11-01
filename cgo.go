@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/constabulary/gb/internal/version"
+	"github.com/SirBigG/gb/internal/version"
 	"github.com/pkg/errors"
 )
 

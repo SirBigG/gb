@@ -12,7 +12,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/constabulary/gb/cmd"
+	"github.com/SirBigG/gb/cmd"
 )
 
 func init() {

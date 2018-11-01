@@ -1,6 +1,6 @@
 version: build-{build}.{branch}
 
-clone_folder: C:\gopath\src\github.com\constabulary\gb
+clone_folder: C:\gopath\src\github.com\SirBigG\gb
 shallow_clone: true # for startup speed
 
 environment:
@@ -33,7 +33,7 @@ install:
   - choco install -y --force bzr
   - set PATH=C:\Program Files (x86)\Bazaar;%PATH%
   - bzr --version
-  # TODO(tianon) - git clone --depth 1 https://github.com/constabulary/integration-tests.git
+  # TODO(tianon) - git clone --depth 1 https://github.com/SirBigG/integration-tests.git
 
 build_script:
   - go get github.com/pkg/errors

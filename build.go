@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/constabulary/gb/internal/fileutils"
-	"github.com/constabulary/gb/internal/version"
+	"github.com/SirBigG/gb/internal/fileutils"
+	"github.com/SirBigG/gb/internal/version"
 )
 
 // Build builds each of pkgs in succession. If pkg is a command, then the results of build include

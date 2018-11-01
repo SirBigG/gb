@@ -3,7 +3,7 @@ package main
 import (
 	"os/exec"
 
-	"github.com/constabulary/gb/cmd"
+	"github.com/SirBigG/gb/cmd"
 	"github.com/pkg/errors"
 )
 

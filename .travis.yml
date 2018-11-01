@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/constabulary/gb
+go_import_path: github.com/SirBigG/gb
 go:
   - 1.6.x
   - 1.7.x
@@ -17,7 +17,7 @@ addons:
 
 install:
   - go get -t -v ./...
-  - git clone --quiet --single-branch --depth 1 https://github.com/constabulary/integration-tests.git ../integration-tests
+  - git clone --quiet --single-branch --depth 1 https://github.com/SirBigG/integration-tests.git ../integration-tests
   - if [[ $TRAVIS_GO_VERSION == 1.4* ]]; then go get -u golang.org/x/tools/cmd/cover; fi
   - echo '#!/bin/bash' > "$GOPATH/bin/sudo"
     && echo 'echo >&2 attempted sudo "$@"' >> "$GOPATH/bin/sudo"
