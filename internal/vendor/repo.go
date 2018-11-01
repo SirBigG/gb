@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/constabulary/gb/internal/fileutils"
+	"github.com/SirBigG/gb/internal/fileutils"
 )
 
 // RemoteRepo describes a remote dvcs repository.
