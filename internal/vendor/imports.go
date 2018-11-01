@@ -66,7 +66,7 @@ func FetchMetadata(path string, insecure bool) (rc io.ReadCloser, err error) {
 }
 
 func fetchMetadata(scheme, path string) (io.ReadCloser, error) {
-	url := fmt.Sprintf("%s://%s?go-get=1", scheme, path)
+	url := fmt.Sprintf("%s://%s", scheme, path)
 	switch scheme {
 	case "https", "http":
 		fmt.Println(url)
