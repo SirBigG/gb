@@ -8,7 +8,7 @@ import (
 	"encoding/xml"
 	"io"
 	"strings"
-
+	"fmt"
 	"github.com/pkg/errors"
 )
 
